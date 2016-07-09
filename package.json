@@ -1,0 +1,25 @@
+{
+  "name": "memoire_ms1",
+  "version": "0.0.1",
+  "description": "First microservice for request tracing application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Microservice",
+    "NodeJS",
+    "MySQL"
+  ],
+  "author": "Pierre Larboulette",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.13.4",
+    "express-json": "^1.0.0",
+    "express-session": "^1.13.0",
+    "mysql": "^2.11.1",
+    "request": "^2.72.0",
+    "uuid": "^2.0.2"
+  }
+}
